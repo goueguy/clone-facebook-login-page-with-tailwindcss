@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    
+    @variants responsive {
+        .bg-fuchsia{
+            background-color:#DD75F0;
+        }
+        .bg-green-custom{
+            background-color:#42b72a;
+        }
+    } 
+    
+}
